@@ -1,2 +1,2 @@
 all:
-  stylesheets: [/opInquiryLightPlugin/css/inquiry]
+  stylesheets: [/opInquiryLEPlugin/css/inquiry]

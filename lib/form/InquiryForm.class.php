@@ -15,7 +15,7 @@
  * @subpackage InquiryLE
  * @author     Naoto Inoue <inoue@adjust.ne.jp>
  */
-class InquiryForm extends BaseForm
+class InquiryForm extends sfForm
 {
   public function setup()
   {
