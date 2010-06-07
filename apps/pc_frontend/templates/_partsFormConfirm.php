@@ -35,7 +35,6 @@ $value = '';
 $widget     = $field->getWidget();
 $validator  = $form->getValidator($name);
 $labelSuffix = '';
-$publicFlg = '';
 
 if ($widget instanceof sfWidgetFormInput)
 {
