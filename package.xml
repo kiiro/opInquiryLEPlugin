@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opInquiryLEPlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>お問い合わせ用フォーム（機能限定版）</summary>
+ <description>よくあるお問い合わせフォーム</description>
+ <lead>
+  <name>kiiro</name>
+  <user>kiiro</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2010-06-07</date>
+ <time>18:23:35</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>Apache</license>
+ <notes>opInquiryLEPlugin 1.0.0</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="b49996516ebaaf81254c6607f215ef71" name="apps/mobile_frontend/config/app.yml" role="data" />
+   <file baseinstalldir="/" md5sum="4d9dd48b491625474b0bca7fbd79fc6e" name="apps/mobile_frontend/i18n/messages.ja.xml" role="data" />
+   <file baseinstalldir="/" md5sum="359031c09e57cc62bf3dd5d090830ff0" name="apps/mobile_frontend/modules/inquiry/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="799c0968bdcfbfc809a650cb3db77217" name="apps/mobile_frontend/modules/inquiry/config/security.yml" role="data" />
+   <file baseinstalldir="/" md5sum="9f79245ab085469d81d7f2dfa07bfd43" name="apps/mobile_frontend/modules/inquiry/config/view.yml" role="data" />
+   <file baseinstalldir="/" md5sum="b4984a75dceaae6890d8eb9f96653536" name="apps/mobile_frontend/modules/inquiry/templates/completeSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="aab82fd6684fe49510d719aa2a501ac5" name="apps/mobile_frontend/modules/inquiry/templates/confirmSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="5beb53cdf520d1d4c756467e709b57d8" name="apps/mobile_frontend/modules/inquiry/templates/inputSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="5f431b66dedb4241d295202d3500ebe3" name="apps/mobile_frontend/templates/_partsFormConfirm.php" role="data" />
+   <file baseinstalldir="/" md5sum="80424943a4b01d21ffeb27fccc9bc085" name="apps/pc_frontend/config/app.yml" role="data" />
+   <file baseinstalldir="/" md5sum="4d9dd48b491625474b0bca7fbd79fc6e" name="apps/pc_frontend/i18n/messages.ja.xml" role="data" />
+   <file baseinstalldir="/" md5sum="b234b0f9b1c7b9d5d5c6307e0974cdfd" name="apps/pc_frontend/modules/inquiry/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="799c0968bdcfbfc809a650cb3db77217" name="apps/pc_frontend/modules/inquiry/config/security.yml" role="data" />
+   <file baseinstalldir="/" md5sum="9f79245ab085469d81d7f2dfa07bfd43" name="apps/pc_frontend/modules/inquiry/config/view.yml" role="data" />
+   <file baseinstalldir="/" md5sum="b4984a75dceaae6890d8eb9f96653536" name="apps/pc_frontend/modules/inquiry/templates/completeSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="aab82fd6684fe49510d719aa2a501ac5" name="apps/pc_frontend/modules/inquiry/templates/confirmSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="d8e1a834db239ce78a07864d67c23872" name="apps/pc_frontend/modules/inquiry/templates/inputSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="5bf0c4a36393db166d35e7ec9068f628" name="apps/pc_frontend/templates/_partsFormConfirm.php" role="data" />
+   <file baseinstalldir="/" md5sum="fdf5c46bc146b3205949268b5db254c6" name="config/mail_template.yml" role="data" />
+   <file baseinstalldir="/" md5sum="79ac740ee068c6ec141bb829d979f49a" name="config/routing.yml" role="data" />
+   <file baseinstalldir="/" md5sum="775c9ee91e20d8ae74c06f3e327eab98" name="lib/action/opInquiryPluginInquiryActions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="6df4426bfdcc4541a3dafef00f64bdaf" name="lib/form/InquiryForm.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="db6125f0b2d63863b6f5472aa325e7d3" name="templates/mail/pc/_inquiryMail.php" role="data" />
+   <file baseinstalldir="/" md5sum="ed313b6a2873fb71cb522384a5caef0e" name="templates/mail/pc/_inquiryMailConfirm.php" role="data" />
+   <file baseinstalldir="/" md5sum="b39c817c892f81758ef1f66f20f97022" name="web/css/inquiry.css" role="data" />
+   <file baseinstalldir="/" md5sum="3b83ef96387f14655fc854ddc3c6bd57" name="LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-06-07</date>
+   <license>Apache</license>
+   <notes>opInquiryLEPlugin 1.0.0</notes>
+  </release>
+ </changelog>
+</package>
