@@ -14,17 +14,17 @@
   <active>yes</active>
  </lead>
  <date>2010-06-07</date>
- <time>19:29:11</time>
+ <time>20:08:56</time>
  <version>
-  <release>1.0.0</release>
-  <api>1.0.0</api>
+  <release>1.0.1</release>
+  <api>1.0.1</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license>Apache</license>
- <notes>release</notes>
+ <notes>正式リリース</notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="b49996516ebaaf81254c6607f215ef71" name="apps/mobile_frontend/config/app.yml" role="data" />
@@ -53,7 +53,7 @@
    <file baseinstalldir="/" md5sum="ed313b6a2873fb71cb522384a5caef0e" name="templates/mail/pc/_inquiryMailConfirm.php" role="data" />
    <file baseinstalldir="/" md5sum="b39c817c892f81758ef1f66f20f97022" name="web/css/inquiry.css" role="data" />
    <file baseinstalldir="/" md5sum="3b83ef96387f14655fc854ddc3c6bd57" name="LICENSE" role="data" />
-   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="README" role="data" />
+   <file baseinstalldir="/" md5sum="86b6624b20f50f81af442f0b2b434538" name="README" role="data" />
   </dir>
  </contents>
  <dependencies>
@@ -85,6 +85,19 @@
    <date>2010-06-07</date>
    <license>Apache</license>
    <notes>release</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.1</release>
+    <api>1.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-06-07</date>
+   <license>Apache</license>
+   <notes>正式リリース</notes>
   </release>
  </changelog>
 </package>

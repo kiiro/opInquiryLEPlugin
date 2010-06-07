@@ -1,0 +1,10 @@
+OpenPNE3用お問い合わせフォーム
+
+
+■フォーム項目のカスタマイズ
+このお問い合わせフォームはapp.ymlを編集することで、フォームの項目をある程度自由に設定することが出来ます。
+ * 設定するファイル
+  * app/pc_frontend/config/app.yml
+  * app/mobile_frontend/config/app.yml
+
+
