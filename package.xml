@@ -6,7 +6,25 @@
  <name>opInquiryLEPlugin</name>
  <channel>plugins.openpne.jp</channel>
  <summary>お問い合わせ用フォーム（機能限定版）</summary>
- <description>よくあるお問い合わせフォーム</description>
+ <description>よくあるお問い合わせフォーム
+機能制限版（LimitedEdition）です。
+
+基本的にapp.ymlを編集することで以下の設定が可能です。
+
+・メールのsubject
+・確認メールのsubject
+・確認メールを送信しない
+・フォームの項目
+　・テキストボックス
+　・テキストエリア
+　・セレクトボックス
+　・チェックボックス
+　・ラジオボックス
+・フォームの上に表示される説明文
+
+■その他
+・OpenPNE3.2、3.4、3.5で確認済み
+・PC、モバイル対応</description>
  <lead>
   <name>kiiro</name>
   <user>kiiro</user>
@@ -14,17 +32,17 @@
   <active>yes</active>
  </lead>
  <date>2010-06-07</date>
- <time>20:08:56</time>
+ <time>21:24:43</time>
  <version>
-  <release>1.0.1</release>
-  <api>1.0.1</api>
+  <release>1.0.2</release>
+  <api>1.0.2</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license>Apache</license>
- <notes>正式リリース</notes>
+ <notes>携帯電話のテンプレートをコミット忘れ</notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="b49996516ebaaf81254c6607f215ef71" name="apps/mobile_frontend/config/app.yml" role="data" />
@@ -49,6 +67,8 @@
    <file baseinstalldir="/" md5sum="79ac740ee068c6ec141bb829d979f49a" name="config/routing.yml" role="data" />
    <file baseinstalldir="/" md5sum="775c9ee91e20d8ae74c06f3e327eab98" name="lib/action/opInquiryPluginInquiryActions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="23e8166cf392280cc543ac98e6d563a4" name="lib/form/InquiryForm.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="db6125f0b2d63863b6f5472aa325e7d3" name="templates/mail/mobile/_inquiryMail.php" role="data" />
+   <file baseinstalldir="/" md5sum="3dec63fb7b32b649e3cc22ba033359a8" name="templates/mail/mobile/_inquiryMailConfirm.php" role="data" />
    <file baseinstalldir="/" md5sum="db6125f0b2d63863b6f5472aa325e7d3" name="templates/mail/pc/_inquiryMail.php" role="data" />
    <file baseinstalldir="/" md5sum="ed313b6a2873fb71cb522384a5caef0e" name="templates/mail/pc/_inquiryMailConfirm.php" role="data" />
    <file baseinstalldir="/" md5sum="b39c817c892f81758ef1f66f20f97022" name="web/css/inquiry.css" role="data" />
@@ -98,6 +118,19 @@
    <date>2010-06-07</date>
    <license>Apache</license>
    <notes>正式リリース</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.2</release>
+    <api>1.0.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-06-07</date>
+   <license>Apache</license>
+   <notes>携帯電話のテンプレートをコミット忘れ</notes>
   </release>
  </changelog>
 </package>
