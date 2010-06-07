@@ -32,7 +32,7 @@
   <active>yes</active>
  </lead>
  <date>2010-06-07</date>
- <time>22:10:59</time>
+ <time>22:38:48</time>
  <version>
   <release>1.0.0</release>
   <api>1.0.0</api>
@@ -42,7 +42,7 @@
   <api>stable</api>
  </stability>
  <license>Apache</license>
- <notes>First stable release.</notes>
+ <notes>added package.xml to release version 1.0.0</notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="b49996516ebaaf81254c6607f215ef71" name="apps/mobile_frontend/config/app.yml" role="data" />
@@ -104,7 +104,7 @@
    </stability>
    <date>2010-06-07</date>
    <license>Apache</license>
-   <notes>First stable release.</notes>
+   <notes>added package.xml to release version 1.0.0</notes>
   </release>
  </changelog>
 </package>
