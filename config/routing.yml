@@ -1,0 +1,12 @@
+inquiry:
+  url:  /inquiry
+  param: { module: inquiry, action: index }
+
+inquiry_input:
+  url:  /inquiry/input
+  param: { module: inquiry, action: input }
+
+
+inquiry_submit:
+  url:  /inquiry/submit
+  param: { module: inquiry, action: submit }

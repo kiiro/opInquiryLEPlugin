@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*==============================================================================
+ * formConfirm
+ *----------------------------------------------------------------------------*/
+.formConfirm .block {
+  text-align: center;
+  padding: 10px 1em;
+}
+
+.formConfirm th,
+.formConfirm td {
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+.formConfirm th {
+  width: 140px;
+}
+
+.formConfirm textarea {
+  width: 98%;
+}
+
+.formConfirm .input {
+  float: left;
+  width: 70%;
+}
+
+.formConfirm .publicFlag {
+  float: right;
+}
+
+.formConfirm .publicFlag select {
+  width: 140px;
+}
+
+.formConfirm strong {
+  color: #FF0000;
+  font-weight: normal;
+}
+
+.formConfirm td .error,
+.formConfirm td ul.error_list li {
+  color: #FF0000;
+}
+
+.formConfirm td .help {
+  color: #FF0000;
+}

@@ -1,0 +1,40 @@
+all:
+  inquiry_mail:
+    subject: "お問い合わせ"
+    subject_confirm: "お問い合わせ（内容確認）"
+    confirm_send: true         # trueの場合widgetsに設定したmail_address宛に確認メールが送信される
+
+  inquiry_form:
+    widgets:
+      name:
+        Caption:   "お名前"
+        FormType:  "text"
+        ValueType: "text"
+        IsRequired: true
+        Help:      
+      mail_address:
+        Caption:   "メールアドレス"
+        FormType:  "text"
+        ValueType: "email"
+        IsRequired: true
+        Help:
+      category:
+        Caption:   "問い合わせの種類"
+        FormType:  "radio"
+        ValueType: "integer"
+        IsRequired: true
+        Help:
+        Choices:
+          - "サイト全般に関するお問合わせ"
+          - "違反行為などに関するお問い合わせ"
+          - "その他お問い合わせ"
+      detail:
+        Caption:   "詳細内容"
+        FormType:  "textarea"
+        ValueType: "text"
+        IsRequired: true
+        Help:      できるだけ詳しくお願いいたします。
+
+  inquiry_explanation:
+    input: お問合せありがとうございます。お問合せ内容をご入力の上、確認ボタンを押してください。
+    confirm: 以下の内容で宜しければ、送信ボタンを押してください。
