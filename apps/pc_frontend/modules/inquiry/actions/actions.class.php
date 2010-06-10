@@ -15,6 +15,6 @@
  * @subpackage InquiryLE
  * @author     Naoto Inoue <inoue@adjust.ne.jp>
  */
-class inquiryActions extends opInquiryPluginInquiryActions
+class inquiryActions extends opInquiryLEPluginInquiryActions
 {
 }
