@@ -31,23 +31,23 @@
   <email />
   <active>yes</active>
  </lead>
- <date>2010-06-07</date>
- <time>22:38:48</time>
+ <date>2010-06-10</date>
+ <time>20:07:05</time>
  <version>
-  <release>1.0.0</release>
-  <api>1.0.0</api>
+  <release>1.0.0.1</release>
+  <api>1.0.0.1</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license>Apache</license>
- <notes>added package.xml to release version 1.0.0</notes>
+ <notes>added package.xml to release version 1.0.0.1</notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="b49996516ebaaf81254c6607f215ef71" name="apps/mobile_frontend/config/app.yml" role="data" />
    <file baseinstalldir="/" md5sum="4d9dd48b491625474b0bca7fbd79fc6e" name="apps/mobile_frontend/i18n/messages.ja.xml" role="data" />
-   <file baseinstalldir="/" md5sum="359031c09e57cc62bf3dd5d090830ff0" name="apps/mobile_frontend/modules/inquiry/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="d84f2da650e30753b998b5e83139703c" name="apps/mobile_frontend/modules/inquiry/actions/actions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="799c0968bdcfbfc809a650cb3db77217" name="apps/mobile_frontend/modules/inquiry/config/security.yml" role="data" />
    <file baseinstalldir="/" md5sum="eda62abf4b91d14fe86cd58fc926bda1" name="apps/mobile_frontend/modules/inquiry/config/view.yml" role="data" />
    <file baseinstalldir="/" md5sum="b4984a75dceaae6890d8eb9f96653536" name="apps/mobile_frontend/modules/inquiry/templates/completeSuccess.php" role="data" />
@@ -56,7 +56,7 @@
    <file baseinstalldir="/" md5sum="5f431b66dedb4241d295202d3500ebe3" name="apps/mobile_frontend/templates/_partsFormConfirm.php" role="data" />
    <file baseinstalldir="/" md5sum="80424943a4b01d21ffeb27fccc9bc085" name="apps/pc_frontend/config/app.yml" role="data" />
    <file baseinstalldir="/" md5sum="4d9dd48b491625474b0bca7fbd79fc6e" name="apps/pc_frontend/i18n/messages.ja.xml" role="data" />
-   <file baseinstalldir="/" md5sum="b234b0f9b1c7b9d5d5c6307e0974cdfd" name="apps/pc_frontend/modules/inquiry/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="9e4ea77cdb290f09bfb0216d3c327718" name="apps/pc_frontend/modules/inquiry/actions/actions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="799c0968bdcfbfc809a650cb3db77217" name="apps/pc_frontend/modules/inquiry/config/security.yml" role="data" />
    <file baseinstalldir="/" md5sum="eda62abf4b91d14fe86cd58fc926bda1" name="apps/pc_frontend/modules/inquiry/config/view.yml" role="data" />
    <file baseinstalldir="/" md5sum="b4984a75dceaae6890d8eb9f96653536" name="apps/pc_frontend/modules/inquiry/templates/completeSuccess.php" role="data" />
@@ -65,7 +65,7 @@
    <file baseinstalldir="/" md5sum="5bf0c4a36393db166d35e7ec9068f628" name="apps/pc_frontend/templates/_partsFormConfirm.php" role="data" />
    <file baseinstalldir="/" md5sum="fdf5c46bc146b3205949268b5db254c6" name="config/mail_template.yml" role="data" />
    <file baseinstalldir="/" md5sum="79ac740ee068c6ec141bb829d979f49a" name="config/routing.yml" role="data" />
-   <file baseinstalldir="/" md5sum="775c9ee91e20d8ae74c06f3e327eab98" name="lib/action/opInquiryPluginInquiryActions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="c5500ee7f877700459cd429d503a7d26" name="lib/action/opInquiryLEPluginInquiryActions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="23e8166cf392280cc543ac98e6d563a4" name="lib/form/InquiryForm.class.php" role="data" />
    <file baseinstalldir="/" md5sum="db6125f0b2d63863b6f5472aa325e7d3" name="templates/mail/mobile/_inquiryMail.php" role="data" />
    <file baseinstalldir="/" md5sum="3dec63fb7b32b649e3cc22ba033359a8" name="templates/mail/mobile/_inquiryMailConfirm.php" role="data" />
@@ -105,6 +105,19 @@
    <date>2010-06-07</date>
    <license>Apache</license>
    <notes>added package.xml to release version 1.0.0</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0.1</release>
+    <api>1.0.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-06-10</date>
+   <license>Apache</license>
+   <notes>added package.xml to release version 1.0.0.1</notes>
   </release>
  </changelog>
 </package>
